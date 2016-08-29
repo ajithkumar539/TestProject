@@ -20,6 +20,8 @@
         <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
         <li data-target="#carousel-example-generic" data-slide-to="1"></li>
         <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="4"></li>
       </ol>
 
       <!-- Wrapper for slides -->
@@ -27,19 +29,31 @@
         <div class="item active">
           <img src="bootstrap/img/car-cameras.jpg" alt="...">
           <div class="carousel-caption">
-            <h2>Heading</h2>
+            <h2>Cool Cameras</h2>
           </div>
         </div>
         <div class="item">
-          <img src="bootstrap/img/car-pendrives.jpg" alt="...">
+          <img src="bootstrap/img/car-headphone.jpg" alt="...">
           <div class="carousel-caption">
-            <h2>Heading</h2>
+            <h2>Awesome Headphones</h2>
           </div>
         </div>
         <div class="item">
           <img src="bootstrap/img/car-phones.jpg" alt="...">
           <div class="carousel-caption">
+            <h2>Fancy Phones</h2>
+          </div>
+        </div>
+        <div class="item">
+          <img src="bootstrap/img/car-accessories.jpg" alt="...">
+          <div class="carousel-caption">
             <h2>Heading</h2>
+          </div>
+        </div>
+        <div class="item">
+          <img src="bootstrap/img/car-sdcard.jpg" alt="...">
+          <div class="carousel-caption">
+            <h2>Memory cards</h2>
           </div>
         </div>
       </div>
