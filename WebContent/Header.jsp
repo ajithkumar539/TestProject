@@ -4,15 +4,17 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<link href="bootstrap/css/navbar.css" rel="stylesheet" type="text/css" />
+
 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<link href="bootstrap/css/flat-ui.min.css" rel="stylesheet" type="text/css" />
+<link href="bootstrap/css/navbar.css" rel="stylesheet" type="text/css" />
 <link href="bootstrap/fonts/font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet">
 
 <title>NavBar</title>
 </head>
 <body>
 	<div id="nav">
-  <div class="navbar navbar-default navbar-fixed-top" data-spy="affix" data-offset-top="100">
+  <div class="navbar navbar-inverse navbar-fixed-top" data-spy="affix" data-offset-top="100">
       <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -21,7 +23,10 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><div style="position:relative; top:-10px; padding-bottom:0px;"><center>MyShop.in</center></div><img class="img-responsive logo" src="bootstrap/img/Camera.png" alt=""></a>
+          <a class="navbar-brand" href="#"><div style="position:relative; top:-10px; padding-bottom:0px;">
+          	<center>MyShop.in</center></div>
+          	<img class="img-responsive logo" src="bootstrap/img/hdcam.png" style="height: 100px; width: 100px;" alt="">
+          </a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
 
@@ -35,7 +40,7 @@
             <li><a href="#contact">Contact</a>
             </li>             
             <li class="dropdown">
-		        <a class="btn btn-default btn-outline btn-circle dropdown-toggle"  data-toggle="dropdown" href="#">Categories&nbsp;<b class="caret"></b></a>
+		        <a class="dropdown-toggle"  data-toggle="dropdown" href="#">Categories&nbsp;<b class="caret"></b></a>
 		        <ul class="dropdown-menu">
 		          <li><a href="#">Action</a></li>
 		          <li><a href="#">Another action</a></li>
@@ -48,11 +53,10 @@
      		</li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-				<li><div class="pull-right list-item"><button type="submit" class="btn btn-primary "><span class="glyphicon glyphicon-user"></span>&nbsp;Sign Up</button></div></li>
-				<li><div class="pull-right list-item"><button type="submit" class="btn btn-danger "><a href="Login.jsp" style="text-decoration: none; color:white;">Login&nbsp;<span class="glyphicon glyphicon-log-in"></span></a></button></div></li>
+				<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+	     		<li><a href="Login.jsp"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
 			</ul>
-			
-        </div>
+		</div>
         
         <!--/.nav-collapse -->
       </div>

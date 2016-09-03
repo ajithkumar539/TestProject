@@ -5,8 +5,10 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>MyShop!</title>
-<link href="bootstrap/css/landing.css" rel="stylesheet" type="text/css" />
+
 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<link href="bootstrap/css/flat-ui.min.css" rel="stylesheet" type="text/css" />
+<link href="bootstrap/css/landing.css" rel="stylesheet" type="text/css" />
 <link href="bootstrap/fonts/font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
@@ -22,39 +24,46 @@
         <li data-target="#carousel-example-generic" data-slide-to="2"></li>
         <li data-target="#carousel-example-generic" data-slide-to="3"></li>
         <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="5"></li>
       </ol>
 
       <!-- Wrapper for slides -->
       <div class="carousel-inner">
         <div class="item active">
-          <img src="bootstrap/img/car-cameras.jpg" alt="...">
-          <div class="carousel-caption">
+          <img src="bootstrap/img/retrocameras.jpg" alt="...">
+          <!--div class="carousel-caption">
             <h2>Cool Cameras</h2>
-          </div>
+          </div-->
         </div>
         <div class="item">
-          <img src="bootstrap/img/car-headphone.jpg" alt="...">
-          <div class="carousel-caption">
+          <img src="bootstrap/img/iphone.png" alt="...">
+          <!--div class="carousel-caption">
             <h2>Awesome Headphones</h2>
-          </div>
+          </div-->
         </div>
         <div class="item">
-          <img src="bootstrap/img/car-phones.jpg" alt="...">
-          <div class="carousel-caption">
+          <img src="bootstrap/img/watches.jpg" alt="...">
+          <!--div class="carousel-caption">
+            <h2>Awesome Headphones</h2>
+          </div-->
+        </div>
+        <div class="item">
+          <img src="bootstrap/img/samsung.png" alt="...">
+          <!--div class="carousel-caption">
             <h2>Fancy Phones</h2>
-          </div>
+          </div-->
         </div>
         <div class="item">
-          <img src="bootstrap/img/car-accessories.jpg" alt="...">
-          <div class="carousel-caption">
+          <img src="bootstrap/img/tempered.jpg" alt="...">
+          <!--div class="carousel-caption">
             <h2>Heading</h2>
-          </div>
+          </div-->
         </div>
         <div class="item">
-          <img src="bootstrap/img/car-sdcard.jpg" alt="...">
-          <div class="carousel-caption">
+          <img src="bootstrap/img/Diesel.png" alt="...">
+          <!--div class="carousel-caption">
             <h2>Memory cards</h2>
-          </div>
+          </div-->
         </div>
       </div>
 
