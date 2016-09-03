@@ -15,17 +15,20 @@
 <body>
  <div class="container col-xs-4 col-xs-offset-4" style="top:20px;">
   <div class="v-center">
- <div class="row jumbotron v-center" style="padding-right:40px;padding-left:40px; height:610px;">
+ <div class="row jumbotron v-center" style="padding-right:40px;padding-left:40px; height:620px;">
 
     <form class="form-signin" method="post" action="login" > 
     <div class="" style="text-align: center; padding:0px;">     
       <h2><center>Welcome!</center></h2>	
       </div>
-      
-      <div class="alert alert-danger hidden">
-  <strong>${requestScope.Error}</strong> </div>
+ <%  //Remove '@' 
+ if (request.getAttribute("Error")!= null) 
+                    { 
+                %>
+      <div class="alert alert-danger" id="errorbox"><a class="close" data-dismiss="errorbox">X</a><span>
+  <strong>${requestScope.Error}</strong> </span></div>
 
-     
+      <% } %>
       
       <label style="padding-top:5px;"><b>Username</b></label>
       <input type="email" class="form-control" name="username" placeholder="Email Address" required="true" autofocus="" />
@@ -45,5 +48,13 @@
   <div class="col-xs-4">
   	<img class="img-responsive logo hidden" src="bootstrap/img/hdcam.png" style="height: 60px; width: 60px; opacity:0.4;" alt="">
   </div>
+  
+  <script>
+  var fade_out = function() {
+	  $("#errorbox").fadeOut();
+	}
+
+	setTimeout(fade_out, 3000);
+  </script>
 </body>
 </html>
