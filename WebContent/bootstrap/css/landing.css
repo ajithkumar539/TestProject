@@ -71,7 +71,8 @@
 @media screen and (min-width: 992px) {
 
   .container-carousel {
-    max-width: 930px;
+    max-width: 1500px;
+    max-height: 350px;
   }
 
 }
