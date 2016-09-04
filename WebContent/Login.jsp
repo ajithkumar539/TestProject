@@ -10,8 +10,8 @@
 <link href="bootstrap/css/flat-ui.min.css" rel="stylesheet" type="text/css" />
 <link href="bootstrap/css/style.css" rel="stylesheet" type="text/css" />
 <link href="bootstrap/fonts/font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet">
-<script src="bootstrap/js/jquery-3.0.0.js" type="text/javascript"></script>
-<script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="bootstrap/js/jquery-3.0.0.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
  <div class="container col-xs-4 col-xs-offset-4" style="top:15px;">
@@ -20,16 +20,14 @@
 
     <form class="form-signin" method="post" action="login" > 
     <div class="" style="text-align: center; padding:0px;">     
-      <h2><center>Welcome!</center></h2>	
+      <h2> <center> Welcome!</center></h2>	
       </div>
- <%  //Remove '@' 
- if (request.getAttribute("Error")!= null) 
-                    { 
-                %>
-      <div class="alert alert-danger" id="errorbox"><a class="close" data-dismiss="errorbox"><i class="fa fa-times" aria-hidden="true"></i></a><span>
-  <strong>${requestScope.Error}</strong> </span></div>
-
-      <% } %>
+		 <% if (request.getAttribute("Error")!= null) { %>
+		      <div class="alert alert-danger" id="errorbox">
+		      	<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+		      	<span><strong>${requestScope.Error}</strong></span>
+		      </div>
+		<% } %>
       
       <label style="padding-top:5px;"><b>Username</b></label>
       <input type="email" class="form-control" name="username" placeholder="Email Address" required="true" autofocus="" />
@@ -39,7 +37,7 @@
         <input type="checkbox" value="remember-me" id="rememberMe" name="rememberMe"> Remember me
       </label>
       <button class="btn btn-lg btn-primary btn-block" type="submit"><strong>Login</strong></button>   
-      <button class="btn btn-lg btn-danger btn-block" type="submit"><strong>Cancel</strong></button> 
+       <div style="padding-top:10px;" ><a href="Signup.jsp" style="color:white; "> <button class="btn btn-lg btn-danger btn-block" type="button"><strong>Sign Up</strong></button></a></div> 
       <br> 
        <span class="psw pull-right">Forgot <a href="#">password?</a></span>
     </form>
@@ -50,7 +48,7 @@
   	<img class="img-responsive logo hidden" src="bootstrap/img/hdcam.png" style="height: 60px; width: 60px; opacity:0.4;" alt="">
   </div>
   
-  <script>
+ 	<script>
   var fade_out = function() {
 	  $("#errorbox").fadeOut();
 	}

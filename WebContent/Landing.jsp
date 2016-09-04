@@ -10,11 +10,8 @@
 <link href="bootstrap/css/flat-ui.min.css" rel="stylesheet" type="text/css" />
 <link href="bootstrap/css/landing.css" rel="stylesheet" type="text/css" />
 <link href="bootstrap/fonts/font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet">
-<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="bootstrap/js/jquery-3.0.0.js"></script>
-<script src="bootstrap/js/collapse.js" type="text/javascript"></script>
-<script src="bootstrap/js/carousel.js" type="text/javascript"></script>
-<script src="bootstrap/js/transition.js" type="text/javascript"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
 <%@ include file="Header.jsp" %>
@@ -86,11 +83,5 @@
 
 
 
-<!-- <script src="bootstrap/js/jquery-3.0.0.js" type="text/javascript"></script>
-<script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-<script src="bootstrap/js/dropdown.js" type="text/javascript"></script>
-<script src="bootstrap/js/collapse.js" type="text/javascript"></script>
-<script src="bootstrap/js/carousel.js" type="text/javascript"></script>
-<script src="bootstrap/js/transition.js" type="text/javascript"></script-->
 </body>
 </html>
