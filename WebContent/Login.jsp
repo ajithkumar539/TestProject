@@ -14,7 +14,7 @@
 <script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
 </head>
 <body>
- <div class="container col-xs-4 col-xs-offset-4" style="top:20px;">
+ <div class="container col-xs-4 col-xs-offset-4" style="top:15px;">
   <div class="v-center">
  <div class="row jumbotron v-center" style="padding-right:40px;padding-left:40px; height:620px;">
 
