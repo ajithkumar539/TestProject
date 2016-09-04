@@ -9,6 +9,7 @@
 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 <link href="bootstrap/css/flat-ui.min.css" rel="stylesheet" type="text/css" />
 <link href="bootstrap/css/style.css" rel="stylesheet" type="text/css" />
+<link href="bootstrap/fonts/font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet">
 <script src="bootstrap/js/jquery-3.0.0.js" type="text/javascript"></script>
 <script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
 </head>
@@ -25,7 +26,7 @@
  if (request.getAttribute("Error")!= null) 
                     { 
                 %>
-      <div class="alert alert-danger" id="errorbox"><a class="close" data-dismiss="errorbox">X</a><span>
+      <div class="alert alert-danger" id="errorbox"><a class="close" data-dismiss="errorbox"><i class="fa fa-times" aria-hidden="true"></i></a><span>
   <strong>${requestScope.Error}</strong> </span></div>
 
       <% } %>
