@@ -9,6 +9,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 /**
  * Servlet implementation class LoginHandler
@@ -39,6 +40,7 @@ public class LoginHandler extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		//doGet(request, response);
+				HttpSession session=request.getSession();
 				response.setContentType("text/html");//setting the content type  
 				PrintWriter pw=response.getWriter();//get the stream to write the data  
 				
@@ -50,7 +52,7 @@ public class LoginHandler extends HttpServlet {
 					 	pw.println("Success");
 			            RequestDispatcher rs = request.getRequestDispatcher("Welcome.jsp");
 			            String[] user = uname.split("[@]");
-			            request.setAttribute("Name", user[0]); 
+			            session.setAttribute("Name", user[0]);
 			            rs.forward(request, response);
 			        }
 			        else

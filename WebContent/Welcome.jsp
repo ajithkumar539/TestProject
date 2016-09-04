@@ -6,9 +6,9 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Welcome</title>
 	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-	<link href="bootstrap/css/flat-ui.min.css" rel="stylesheet" type="text/css" />
-	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+	<link href="bootstrap/css/flat-ui.min.css" rel="stylesheet" type="text/css" />	
 	<script type="text/javascript" src="bootstrap/js/jquery-3.0.0.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
 	<%@ include file="Header.jsp" %>
@@ -16,7 +16,7 @@
 
       <!-- Main component for a primary marketing message or call to action -->
       <div class="jumbotron">
-        <h1>Hello! how are you ${requestScope.Name}?</h1>
+        <h1>Hello! how are you ${sessionScope.Name}?</h1>
         <p class="lead">If you are seeing this landing home page then login is working</p>
         <p>And for now the page is under-construction.</p>
         <p>
