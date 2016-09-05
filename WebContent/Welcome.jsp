@@ -23,5 +23,6 @@
           <a class="btn btn-lg btn-primary" href="#" role="button">Learn More &raquo;</a>
         </p>
       </div>	
+ 	<%@ include file="Footer.jsp" %>
 </body>
 </html>

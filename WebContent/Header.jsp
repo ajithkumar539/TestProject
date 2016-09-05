@@ -36,7 +36,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><div style="position:relative; top:-10px; padding-bottom:0px;">
+          <a class="navbar-brand" href="Landing.jsp"><div style="position:relative; top:-10px; padding-bottom:0px;">
           	<center>MyShop.in</center></div>
           	<img class="img-responsive logo" src="bootstrap/img/hdcam.png" style="height: 100px; width: 100px;" alt="">
           </a>
