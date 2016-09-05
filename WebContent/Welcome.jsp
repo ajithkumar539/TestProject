@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Welcome</title>
 	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-	<link href="bootstrap/css/flat-ui.min.css" rel="stylesheet" type="text/css" />	
+	<link href="bootstrap/css/custom-style.css" rel="stylesheet" type="text/css" />	
 	<script type="text/javascript" src="bootstrap/js/jquery-3.0.0.js"></script>
 	<script src="bootstrap/js/bootstrap.min.js"></script>
 </head>

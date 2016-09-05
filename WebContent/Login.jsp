@@ -7,7 +7,7 @@
 <title>MyShop</title>
 
 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-<link href="bootstrap/css/flat-ui.min.css" rel="stylesheet" type="text/css" />
+<link href="bootstrap/css/custom-style.css" rel="stylesheet" type="text/css" />
 <link href="bootstrap/css/style.css" rel="stylesheet" type="text/css" />
 <link href="bootstrap/fonts/font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet">
 <script type="text/javascript" src="bootstrap/js/jquery-3.0.0.js"></script>

@@ -11,7 +11,7 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 		
 		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-		<link href="bootstrap/css/flat-ui.min.css" rel="stylesheet" type="text/css" />
+		<link href="bootstrap/css/custom-style.css" rel="stylesheet" type="text/css" />
 		<link href="bootstrap/css/navbar.css" rel="stylesheet" type="text/css" />
 		<link href="bootstrap/fonts/font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet">
 		
@@ -44,13 +44,13 @@
         <div id="navbar" class="collapse navbar-collapse">
 
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#"><i class="fa fa-home" aria-hidden="true"></i>&nbsp;Home</a>
+            <li class="active"><a href="Welcome.jsp"><i class="fa fa-home" aria-hidden="true"></i>&nbsp;Home</a>
             </li>
-            <li><a href="#about">About</a>
+            <li><a href="About.jsp">About</a>
             </li>
             <li><a href="#">Services</a>
             </li>
-            <li><a href="#contact">Contact</a>
+            <li><a href="Contact.jsp">Contact</a>
             </li>             
             <li class="dropdown">
 		        <a class="dropdown-toggle"  data-toggle="dropdown" href="#">Categories&nbsp;<b class="caret"></b></a>
