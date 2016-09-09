@@ -6,6 +6,9 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>MyShop</title>
 
+		<link rel="shortcut icon" href="bootstrap/img/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="bootstrap/img/favicon.ico" type="image/x-icon">
+
 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 <link href="bootstrap/css/custom-style.css" rel="stylesheet" type="text/css" />
 <link href="bootstrap/css/style.css" rel="stylesheet" type="text/css" />

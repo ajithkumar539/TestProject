@@ -10,6 +10,9 @@
 <head>
 		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 		
+		<link rel="shortcut icon" href="bootstrap/img/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="bootstrap/img/favicon.ico" type="image/x-icon">
+		
 		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 		<link href="bootstrap/css/custom-style.css" rel="stylesheet" type="text/css" />
 		<link href="bootstrap/css/navbar.css" rel="stylesheet" type="text/css" />
@@ -67,7 +70,7 @@
           </ul>
           <ul class="nav navbar-nav navbar-right">
 				<c:choose>
-				    <c:when test="${not empty sessionScope.Name}">
+				    <c:when test="${not empty sessionScope.Name }">
 				        <li><a href="Login.jsp"><span class="glyphicon glyphicon-log-out"></span> Sign Out</a></li>
 				    </c:when>    
 				    <c:otherwise>
