@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Registration |</title>
+<title>Registration | MyShop.in</title>
 
 		<link rel="shortcut icon" href="bootstrap/img/favicon.ico" type="image/x-icon">
 		<link rel="icon" href="bootstrap/img/favicon.ico" type="image/x-icon">

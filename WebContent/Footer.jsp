@@ -16,7 +16,7 @@
 		<script src="bootstrap/js/bootstrap.min.js"></script>
 		
 			
-	<title></title>
+	<title>Footer</title>
 </head>
 <body>
 

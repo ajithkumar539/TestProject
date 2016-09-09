@@ -87,5 +87,17 @@
       <!--/.contatiner -->
 </div>
 </div>
+<script type="text/javascript">
+(function($){
+	$(window).scroll(function(){
+	if ($(this).scrollTop() > 0) {
+		$('.logo').fadeOut("slow");
+
+	} else {
+		$('.logo').fadeIn("fast");
+	}
+	});
+	})(jQuery);
+</script>
 </body>
 </html>
