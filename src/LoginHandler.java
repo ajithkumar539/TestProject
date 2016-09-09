@@ -40,7 +40,7 @@ public class LoginHandler extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		//doGet(request, response);
-				HttpSession session=request.getSession();
+				HttpSession session=request.getSession(true);
 				response.setContentType("text/html");//setting the content type  
 				PrintWriter pw=response.getWriter();//get the stream to write the data  
 				
