@@ -23,9 +23,11 @@
         <p class="lead">If you are seeing this landing home page then login is working</p>
         <p>And for now the page is under-construction.</p>
         <p>
-          <a class="btn btn-lg btn-primary" href="#" role="button">Learn More &raquo;</a>
+          <a class="btn btn-lg btn-primary" href="About.jsp" role="button">Learn More &raquo;</a>
         </p>
+      </div>
       </div>	
  	<%@ include file="Footer.jsp" %>
+ 	
 </body>
 </html>

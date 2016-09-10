@@ -1,6 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-    <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/sql" prefix="sql" %>
@@ -18,18 +17,12 @@
 		<link href="bootstrap/css/navbar.css" rel="stylesheet" type="text/css" />
 		<link href="bootstrap/fonts/font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet">
 		
-		<script type="text/javascript" src="bootstrap/js/jquery-3.0.0.js"></script>
-		<script src="bootstrap/js/bootstrap.min.js"></script>
-		<script src="bootstrap/js/dropdown.js" type="text/javascript"></script>
-		<script src="bootstrap/js/collapse.js" type="text/javascript"></script>
-		<script src="bootstrap/js/transition.js" type="text/javascript"></script>
-		
 		<title>NavBar</title>
 </head>
 
 
 <body>
-	<div id="nav">
+	<div id="nav" >
   <div class="navbar navbar-inverse navbar-fixed-top" data-spy="affix" data-offset-top="100">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -39,8 +32,10 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="Landing.jsp"><div style="position:relative; top:-10px; padding-bottom:0px;">
-          	<center>MyShop.in</center></div>
+          <a class="navbar-brand" href="Landing.jsp">
+          	<div style="position:relative; top:-10px; padding-bottom:0px;">
+          		<center>MyShop.in</center>
+          	</div>
           	<img class="img-responsive logo" src="bootstrap/img/hdcam.png" style="height: 100px; width: 100px;" alt="">
           </a>
         </div>
@@ -87,6 +82,11 @@
       <!--/.contatiner -->
 </div>
 </div>
+<script type="text/javascript" src="bootstrap/js/jquery-3.0.0.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="bootstrap/js/dropdown.js" type="text/javascript"></script>
+<script src="bootstrap/js/collapse.js" type="text/javascript"></script>
+<script src="bootstrap/js/transition.js" type="text/javascript"></script>
 <script type="text/javascript">
 (function($){
 	$(window).scroll(function(){

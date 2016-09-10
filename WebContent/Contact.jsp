@@ -95,10 +95,10 @@
                  <div class="panel panel-default" style="margin-top: 30px; background-color: #f0f0f0;">
                  <div class="panel-body">
       <form>
-        <legend><span class="glyphicon glyphicon-globe"></span> Our office</legend>
+        <legend> <span class="glyphicon glyphicon-globe"></span> Our office </legend>
         <address>
-                <strong>Twitter, Inc.</strong><br>
-                795 Folsom Ave, Suite 600<br>
+                <strong>Daymonyr, Inc.</strong><br>
+                410 Blossom Ave, Suite 600<br>
                 San Francisco, CA 94107<br>
                 <abbr title="Phone">
                     P:</abbr>
