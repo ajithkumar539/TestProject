@@ -69,7 +69,7 @@
           <ul class="nav navbar-nav navbar-right">
 				<c:choose>
 				    <c:when test="${not empty sessionScope.Name }">
-				        <li><a href="Login.jsp"><span class="glyphicon glyphicon-log-out"></span> Sign Out</a></li>
+				        <li><a href="Logout"><span class="glyphicon glyphicon-log-out"></span> Sign Out</a></li>
 				    </c:when>    
 				    <c:otherwise>
 				       <li><a href="Signup.jsp"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
