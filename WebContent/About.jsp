@@ -34,7 +34,7 @@
 	                </h1>
 	                <div class="col-lg-6"  style="height:180px;">
 	                  <div><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, explicabo dolores ipsam aliquam inventore corrupti eveniet quisquam quod totam laudantium repudiandae obcaecati ea consectetur debitis velit facere nisi expedita vel?</p></div>
-	                  <a class="btn btn-lg btn-primary" href="#" role="button">Shop Noww &raquo;</a>
+	                  <a class="btn btn-lg btn-primary" href="Products.jsp" role="button">Shop Noww &raquo;</a>
 	            </div>
 	            <div class="col-lg-6" style="height:50px;">
 	                <img class="img" src="bootstrap/img/Layer 0.png" style="position:relative; bottom:150px; float:right;" alt="PhotographerGirl">

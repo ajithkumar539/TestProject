@@ -83,6 +83,23 @@
 
   </div>
 </section>
+	<section>
+		<div class="container">
+		<hr />
+		<div class="row">
+		<div class="col-sm-4 col-md-3">
+		<h3>Categories</h3>
+		<div class="list-group">
+		<a href="category.html" class="list-group-item">Accessories</a>
+		<a href="category.html" class="list-group-item">Cameras</a>
+		<a href="category.html" class="list-group-item">SmartPhones</a>
+		<a href="category.html" class="list-group-item">Memory sticks</a>		
+		<a href="category.html" class="list-group-item">Watches</a>
+		</div>
+		</div>
+		</div>
+		</div><!-- /.container class with content as the id-->
+	</section>
 
 
 	<%@ include file="Footer.jsp" %>

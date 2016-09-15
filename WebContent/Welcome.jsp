@@ -19,12 +19,23 @@
 
       <!-- Main component for a primary marketing message or call to action -->
       <div class="jumbotron">
-        <h1>Hello! how are you ${sessionScope.Name}?</h1>
-        <p class="lead">If you are seeing this landing home page then login is working</p>
-        <p>And for now the page is under-construction.</p>
-        <p>
-          <a class="btn btn-lg btn-primary" href="About.jsp" role="button">Learn More &raquo;</a>
-        </p>
+      	<c:choose>
+		    <c:when test="${not empty sessionScope.Name }">
+		        <h1>Hello! how are you ${sessionScope.Name}?</h1>
+		        <p class="lead">If you are seeing this landing home page then login is working</p>
+		        <p>And for now the page is under-construction.</p>
+		        <p>
+		          <a class="btn btn-lg btn-primary" href="About.jsp" role="button">Learn More &raquo;</a>
+		        </p>
+		    </c:when>    
+		    <c:otherwise>
+		       <h1>You are logged out! pls login to continue using our services.</h1>
+		       <p>
+		          <a class="btn btn-lg btn-primary" href="Login.jsp" role="button">Login in now &raquo;</a>
+		        </p>
+		    </c:otherwise>
+		</c:choose>
+        
       </div>
       </div>	
  	<%@ include file="Footer.jsp" %>

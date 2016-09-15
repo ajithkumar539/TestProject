@@ -3,6 +3,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/sql" prefix="sql" %>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 
@@ -49,14 +50,14 @@
             </li>
             <li><a href="About.jsp">About</a>
             </li>
-            <li><a href="#">Services</a>
+            <li><a href="#">Customer Care</a>
             </li>
             <li><a href="Contact.jsp">Contact</a>
             </li>             
             <li class="dropdown">
 		        <a class="dropdown-toggle"  data-toggle="dropdown" href="#">Categories&nbsp;<b class="caret"></b></a>
 		        <ul class="dropdown-menu">
-		          <li><a href="#">Cameras</a></li>
+		          <li><a href="Products.jsp">Cameras</a></li>
 		          <li><a href="#">Phones</a></li>
 		          <li><a href="#">Accessories</a></li>
 		          <li class="divider"></li>
@@ -97,5 +98,6 @@
 	});
 	})(jQuery);
 </script>
+
 </body>
 </html>

@@ -33,12 +33,12 @@ public class LogoutHandler extends HttpServlet {
 		response.setContentType("text/html");  
         PrintWriter out=response.getWriter();  
           
-        request.getRequestDispatcher("Landing.jsp").include(request, response);  
+         
           
         HttpSession session=request.getSession();  
         session.invalidate();  
-          
-        out.print("You are successfully logged out!");  
+        request.getRequestDispatcher("Welcome.jsp").include(request, response);   
+        //out.print("You are successfully logged out!");  
           
         out.close();  
 	}
