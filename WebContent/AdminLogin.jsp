@@ -14,7 +14,6 @@
 		
 		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 		<link href="bootstrap/css/custom-style.css" rel="stylesheet" type="text/css" />
-		<link href="bootstrap/css/navbar.css" rel="stylesheet" type="text/css" />
 		<link href="bootstrap/fonts/font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet">
 		
 		<script src="bootstrap/js/jquery-3.0.0.js" type="text/javascript"></script>

@@ -28,7 +28,7 @@
 							
 						</div>
 						
-					<form method="POST" action="#" role="form">
+					<form method="POST" action="Register" role="form">
 						
 						
 						<div class="row">
