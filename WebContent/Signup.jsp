@@ -17,7 +17,7 @@
 <script src="bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
- <div class="container col-xs-5 col-xs-offset-4" style="height: 650px; position:relative; left:-50px;">
+ <div class="container col-xs-5 col-xs-offset-4" style="height: 650px; position:relative; left:-50px; overflow:hidden;">
   <div class="v-center">
  <div class="row" style="">
 
@@ -34,19 +34,30 @@
 						<div class="row">
 			    				<div class="col-xs-6 col-sm-6 col-md-6">
 			    					<div class="form-group">
-			                <input type="text" name="first_name" id="first_name" class="form-control floatlabel" placeholder="First Name" required="true" autofocus="true">
+			                <input type="text" name="first_name" id="first_name" class="form-control floatlabel" pattern="[A-Za-z]+"  placeholder="First Name" required="true" autofocus="true">
 			    					</div>
 			    				</div>
 			    				<div class="col-xs-6 col-sm-6 col-md-6">
 			    					<div class="form-group">
-			    						<input type="text" name="last_name" id="last_name" class="form-control" placeholder="Last Name">
+			    						<input type="text" name="last_name" id="last_name" class="form-control" pattern="[A-Za-z]+"  placeholder="Last Name">
 			    					</div>
 			    				</div>
-			    			</div>
-						<div class="form-group">
-							<input id="UserID" type="text" maxlength="50" class="form-control"  placeholder="User name" required="true">
-							<span class="help-block">Username can contain any letters or numbers, without spaces</span>
-						</div>
+			    			</div>						
+						<div class="row">
+			    				<div class="col-xs-6 col-sm-6 col-md-6">
+			    					<div class="form-group">
+										<input id="UserID" type="text" maxlength="50" class="form-control"  placeholder="User name"  pattern="^\S*$"required="true">
+										<span class="help-block">Username cannot contain any spaces</span>
+									</div>
+			    					
+			    				</div>
+			    				<div class="col-xs-6 col-sm-6 col-md-6">
+			    					<div class="form-group">
+			    						<input type="text" name="mobile_number" id="mobile_number" class="form-control" placeholder="Mobile Number" pattern="(7|8|9)\d{9}">
+			    					</div>
+			    				</div>
+			    				
+			    		</div>					
 						<div class="form-group">
 							<input id="signupEmail" type="email" maxlength="50" class="form-control"  placeholder="E-mail address" required="true">
 							<span class="help-block">Please provide your E-mail</span>
@@ -54,7 +65,7 @@
 						<div class="row">
 			    				<div class="col-xs-6 col-sm-6 col-md-6">
 			    					<div class="form-group">
-			    						<input type="password" name="password" id="password" class="form-control" placeholder="Password" required="true">
+			    						<input type="password" name="password" id="password" class="form-control" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required="true">
 			    						<span class="help-block">Password should be at least 8 characters</span>
 			    					</div>
 			    					
@@ -62,9 +73,9 @@
 			    				<div class="col-xs-6 col-sm-6 col-md-6">
 			    					<div class="form-group">
 			    						<input type="password" name="password_confirmation" id="password_confirmation" class="form-control" placeholder="Confirm Password" required="true">
+			    						<span class="help-block">with at least one digit & lowercase letter</span>
 			    					</div>
-			    				</div>
-			    				
+			    				</div>			    				
 			    			</div>
 			    			<div class="row">
 			    				<div class="checkbox">
@@ -88,11 +99,8 @@
 			    					<div class="form-group">
 			    						Already have an account? <a href="Login.jsp">Signin</a>
 			    					</div>
-			    				</div>
-			    				
-			    			</div>
-					
-						
+			    				</div>			    				
+			    			</div>					
 					</form>
 				</div>
 			</div>
@@ -101,4 +109,20 @@
 			</div>
 			
  </body>
+ <script type="text/javascript">
+ var password = document.getElementById("password")
+ , confirm_password = document.getElementById("password_confirmation");
+
+function validatePassword(){
+ if(password.value != confirm_password.value) {
+   confirm_password.setCustomValidity("Passwords Don't Match");
+ } else {
+   confirm_password.setCustomValidity('');
+ }
+}
+
+password.onchange = validatePassword;
+confirm_password.onkeyup = validatePassword;
+ 
+ </script>
 </html>
